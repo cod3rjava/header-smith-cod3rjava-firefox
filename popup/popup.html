@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HeaderSmith – cod3rjava</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div>
+          <div class="title">HeaderSmith – cod3rjava</div>
+          <div id="build" class="build"></div>
+        </div>
+        <label class="switch">
+          <input id="globalEnabled" type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="row">
+        <label class="label" for="urlRegex">URL regex (optional)</label>
+        <input id="urlRegex" class="input" type="text" placeholder="e.g. ^https?://example\.com/" />
+        <div id="regexHint" class="hint"></div>
+      </div>
+
+      <div class="tableHeader">
+        <div></div>
+        <div>Name</div>
+        <div>Value</div>
+        <div></div>
+      </div>
+
+      <div id="rules"></div>
+
+      <div class="row footer">
+        <button id="addRule" class="btn">+ Add header</button>
+        <button id="reset" class="btn btnSecondary">Reset</button>
+      </div>
+    </div>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
+
