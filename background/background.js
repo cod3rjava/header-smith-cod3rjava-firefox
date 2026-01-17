@@ -55,10 +55,10 @@ function applyRules(requestHeaders) {
   // Some headers are controlled by the browser/caching layer and may not accept being set
   // to an empty value. For those, we treat empty as "remove" to achieve the practical effect.
   const REMOVE_WHEN_EMPTY = new Set([
-    "if-none-match",
-    "if-modified-since",
-    "if-match",
-    "if-unmodified-since",
+    // "if-none-match",
+    // "if-modified-since",
+    // "if-match",
+    // "if-unmodified-since",
     "if-range"
   ]);
 
