@@ -9,7 +9,7 @@ const DEFAULT_STATE = {
   urlRegex: ""
 };
 
-const BUILD_ID = "0.1.2";
+const BUILD_ID = "0.1.3";
 
 function uid() {
   return Math.random().toString(16).slice(2) + Date.now().toString(16);
