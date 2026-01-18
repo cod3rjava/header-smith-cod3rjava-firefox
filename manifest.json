@@ -3,6 +3,12 @@
   "name": "HeaderSmith – cod3rjava",
   "version": "0.1.2",
   "description": "Override request headers in Firefox.",
+  "applications": {
+    "gecko": {
+      "id": "headersmith-cod3rjava@cod3rjava.local",
+      "strict_min_version": "109.0"
+    }
+  },
   "permissions": [
     "storage",
     "webRequest",
@@ -17,7 +23,8 @@
     "default_popup": "popup/popup.html"
   },
   "icons": {
-    "48": "icons/icon.svg"
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
   }
 }
 
